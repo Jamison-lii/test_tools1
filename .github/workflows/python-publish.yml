@@ -5,13 +5,13 @@
 # They are provided by a third-party and are governed by
 # separate terms of service, privacy policy, and support
 # documentation.
-       name: CI
+ name: CI
 
 on: [push, pull_request]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v2 # Step to check out the code
