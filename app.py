@@ -3,7 +3,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
 
 
-@app.route('')
+@app.route('\my_project_env')
 def home():
     return jsonify(message="Hello level 400 FET, Quality Assurance!")
 
